@@ -1,0 +1,42 @@
+.pageHolder {
+
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header header" "aside article" "aside footer";
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-columns: 30% 70%; 
+}
+
+
+
+
+
+
+header {
+   grid-area: header;
+    background-color: red;
+    border: 2px dashed #3F51B5;
+}
+
+
+
+
+
+aside {
+    grid-area: aside;
+    background-color: #0000ff52;
+    border: 2px dashed #3F51B5;
+}
+
+article {
+    grid-area: article;
+    background-color: #9c743e8c;
+    border: 2px dashed #3F51B5;
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: pink;
+    border: 2px dashed #3F51B5;
+}

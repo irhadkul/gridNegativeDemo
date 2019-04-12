@@ -1,0 +1,36 @@
+
+
+.gridHolder {
+    background-color: #e8e8e8;
+    /* display: grid;
+    grid-template-areas: 'header header header'
+                         'main main aside'
+                         'footer footer footer'; */
+}
+
+.header {
+    border: 1px solid black;
+    /* grid-area: header; */
+ 
+    background-color: #e5c7d4;
+
+}
+
+.main {
+    /* grid-area: main; */
+   
+    border: 1px solid #3F51B5;
+}
+
+.aside {
+    /* grid-area: aside; */
+  
+    border: 1px solid #388E3C;
+
+}
+
+.footer {
+    /* grid-area: footer; */
+ 
+    border: 1px solid #AD1457;
+}

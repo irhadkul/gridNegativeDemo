@@ -1,1 +1,3 @@
-# Grid Like layout built with floating and magic
+- npm install
+- gulp
+- dist/flex.html 
