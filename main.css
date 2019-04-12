@@ -1,0 +1,57 @@
+.pageHolder {
+
+    height: 100vh;
+}
+
+.contentHolder {
+    /* float: left;
+
+    width: 70%; */
+}
+
+.contentHolder:after {
+    /* content: "";
+    clear: both;
+    display: table; */
+}
+
+
+
+
+header {
+    height: 200px;
+    background-color: red;
+    border: 2px dashed #3F51B5;
+}
+
+
+
+
+
+aside {
+    /* float: left; */
+    /* width: 30%; */
+
+    /* height: calc(100vh - 200px); */
+    background-color: #0000ff52;
+    border: 2px dashed #3F51B5;
+}
+
+article {
+    /* float: left; */
+    /* width: calc(70% - 10px); */
+    /* margin-right: 10px; */
+
+    /* height: calc(100vh - 100px - 200px); */
+    background-color: #9c743e8c;
+    border: 2px dashed #3F51B5;
+}
+
+
+footer {
+    height: 100px;
+    /* float: left; */
+    background-color: pink;
+    border: 2px dashed #3F51B5;
+    /* width: 70%; */
+}

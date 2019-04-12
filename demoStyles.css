@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header:before {
+    content: attr(title);
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+
+}
+aside:before {
+    content: attr(title);
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+
+}
+article:before {
+    content: attr(title);
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+
+}
+footer:before {
+    content: attr(title);
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+
+}
