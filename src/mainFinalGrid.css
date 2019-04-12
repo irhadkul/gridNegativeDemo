@@ -24,13 +24,13 @@ header {
 
 aside {
     grid-area: aside;
-    background-color: #0000ff52;
+    background-color: #0000ff;
     border: 2px dashed #3F51B5;
 }
 
 article {
     grid-area: article;
-    background-color: #9c743e8c;
+    background-color: #9c733e;
     border: 2px dashed #3F51B5;
 }
 

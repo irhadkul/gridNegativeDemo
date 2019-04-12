@@ -16,7 +16,7 @@ aside {
     width: 30%;
 
     height: calc(100vh - 200px);
-    background-color: #0000ff52;
+    background-color: #0000ff;
     border: 2px dashed #3F51B5;
 }
 
@@ -26,7 +26,7 @@ article {
     width: 70%;
     /* margin-right: 10px; */
     height: calc(100vh - 100px - 200px);
-    background-color: #9c743e8c;
+    background-color: #9c733e;
     border: 2px dashed #3F51B5;
 }
 
